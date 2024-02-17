@@ -17,7 +17,7 @@ def save_page_as_pdf(url, page_num):
 
 def save_all_pages(start_page, end_page):
     for page_num in range(start_page, end_page+1):
-        url = f"https://t.me/c/1879256632/{page_num}"
+        url = f"https://tilshunos.com/omonims/?page={page_num}"
         save_page_as_pdf(url, page_num)
 
 os.makedirs("homonyms", exist_ok=True)
